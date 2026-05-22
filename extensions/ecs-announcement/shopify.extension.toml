@@ -1,0 +1,19 @@
+name = "ECS Announcement"
+type = "theme"
+uid = "033edfaa-cd70-4b15-4626-cfbd58fa375c27eb99f5"
+
+[blocks]
+	[blocks.app-embed]
+	name = "App Embed Block"
+	target = "body"
+	file = "blocks/announcement_app.liquid"
+
+	[blocks.announcement-theme-block]
+	name = "ECS Announcement"
+	target = "section"
+	file = "blocks/announcement-theme-block.liquid"	
+
+# Optional: Add metafields if needed
+# [[extensions.metafields]]
+# namespace = "custom"
+# key = "scripts"
