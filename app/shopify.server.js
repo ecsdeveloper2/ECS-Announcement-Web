@@ -33,7 +33,7 @@ export async function registerAppUninstalledWebhook(session) {
     session,
     topic: "APP_UNINSTALLED",
     address:
-      "https://ecs-announcement-app-dev-backend-live.onrender.com/api/shopify/webhook",
+      "https://ecsannouncement-backend.ecodesoft.net/api/shopify/webhook",
     format: "json",
   });
   if (response.success) {

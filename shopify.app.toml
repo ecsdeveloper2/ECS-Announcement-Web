@@ -2,7 +2,7 @@
 
 client_id = "93c7cd9dcc48e0ce5ac473077b45b985"
 name = "ECS Announcement"
-application_url = "https://ecs-announcement-app-dev-web-live.onrender.com"
+application_url = "https://ecsannouncement.ecodesoft.net"
 embedded = true
 
 [build]
@@ -14,7 +14,7 @@ api_version = "2026-07"
   [[webhooks.subscriptions]]
   topics = [ "app/uninstalled" ]
   compliance_topics = ["customers/data_request", "customers/redact", "shop/redact"]
-  uri = "https://ecs-announcement-app-dev-backend-live.onrender.com/api/shopify/webhook"
+  uri = "https://ecsannouncement-backend.ecodesoft.net/api/shopify/webhook"
 
 
 [access_scopes]
@@ -23,7 +23,7 @@ scopes = "write_products,read_themes"
 
 [auth]
 redirect_urls = [ 
-  "https://ecs-announcement-app-dev-web-live.onrender.com/auth/callback",
-  "https://ecs-announcement-app-dev-web-live.onrender.com/auth/shopify/callback",
-  "https://ecs-announcement-app-dev-web-live.onrender.com/api/auth/callback"
+  "https://ecsannouncement.ecodesoft.net/auth/callback",
+  "https://ecsannouncement.ecodesoft.net/auth/shopify/callback",
+  "https://ecsannouncement.ecodesoft.net/api/auth/callback"
   ]
